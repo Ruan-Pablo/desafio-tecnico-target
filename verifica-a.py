@@ -13,20 +13,10 @@ def mostrar_mensagem(resultado:int):
 
 def main():
     print("Verificador de a's")
-    print("Digite -1 para finalizar")
-    while True:
-        # entrada = input("\nDigite uma palavra ou frase:")
-        entrada = 'PnAEuMa'
-        if entrada.isnumeric() or entrada == "-1":
-            break
-        resultado = verificar_qtd_a(entrada)
-        mostrar_mensagem(resultado)
-        
-        if entrada == "PnAEuMa":
-            break
-    print("------------------------")
-    print("Programa finalizado")
 
+    entrada = 'PnAEuMa'
+    resultado = verificar_qtd_a(entrada)
+    mostrar_mensagem(resultado)
 
 if __name__ == "__main__":
     main()
