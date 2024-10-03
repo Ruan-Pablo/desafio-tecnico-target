@@ -13,8 +13,8 @@ def mostrar_mensagem(resultado:int):
 
 def main():
     print("Verificador de a's")
-
     entrada = 'PnAEuMa'
+    print(entrada)
     resultado = verificar_qtd_a(entrada)
     mostrar_mensagem(resultado)
 
