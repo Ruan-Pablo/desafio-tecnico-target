@@ -30,19 +30,22 @@ def main():
   print("Digite -1 para finalizar")
 
   while True:
-      numero = input("Digite um numero:") # o input da uns probleminhas, entao foi necessario utilizar o colab
-      if numero == "-1":
-          break
-      if not numero.isnumeric():
-          print("Digite um numero valido!!")
-          continue
+    #   numero = input("Digite um numero:") # o input da uns probleminhas, entao foi necessario utilizar o colab
+        numero = "56678"
+        if numero == "-1":
+            break
+        if not numero.isnumeric():
+            print("Digite um numero valido!!")
+            continue
 
-      numero = int(numero)
+        numero = int(numero)
 
-      fibonacci = Fibonacci(numero)
-      resultado = fibonacci.verificar()
-      print(mostrar_mensagem(resultado))
-
+        fibonacci = Fibonacci(numero)
+        resultado = fibonacci.verificar()
+        print("Numero: ", numero)
+        print(mostrar_mensagem(resultado))  
+        if numero == 56678:
+            break
   print("------------------------")
   print("Programa finalizado")
 
