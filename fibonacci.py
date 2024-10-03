@@ -30,8 +30,7 @@ def main():
   print("Digite -1 para finalizar")
 
   while True:
-      # print("\nDigite um numero:")
-      numero = input("Digite um numero:")
+      numero = input("Digite um numero:") # o input da uns probleminhas, entao foi necessario utilizar o colab
       if numero == "-1":
           break
       if not numero.isnumeric():
